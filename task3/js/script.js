@@ -133,7 +133,12 @@
 //  <option value="4">four</option>
 //</select>
 
-// ***
+// let out = document.querySelector('.out');
+// let task9 = document.querySelector('.task9');
+
+// task9.addEventListener("change", () => {
+//    out.textContent = task9.value;
+// })
 
 //  Task 10
 // Кнопка btn-10 запускает функцию f10  Функция должна:
@@ -144,13 +149,33 @@
 //<input type="radio" name="i-10" class="i-10" value="2">
 //<input type="radio" name="i-10" class="i-10" value="3">
 
+// let btn = document.querySelector('.btn');
+// let result = document.querySelector('.result');
 
+// btn.addEventListener('click', () => {
+//    let i10 = document.querySelectorAll('.i10');
+//    for (let i = 0; i < i10.length; i++) {
+//       if (i10[i].checked) {
+//          result.innerHTML = i10[i].value;
+//       }
+//    }
+// });
 
 //  Task 11
 // Кнопка b-11 запускает функцию f11  Функция должна выводить следующую последовательность в out-11:
 // 10 0 9 1 8 2 7 3 6 4 5 5 4 6 3 7 2 8 1 9 0 10
 // Для вывода использовать цикл. Разделитель пробел.
 // Подсказка (10 - i) + ' ' + i
+
+// let btn = document.querySelector('.btn');
+// let result = document.querySelector('.result');
+
+// btn.addEventListener('click', () => {
+//    for (let i = 0; i <= 10; i++) {
+//       result.innerHTML += 10 - i + " ";
+//       result.innerHTML += i + " ";
+//    }
+// });
 
 //  Task 12
 // <p>С помощью вложенных циклов, нарисуйте строку:</p>
@@ -162,6 +187,22 @@
 // <p>Внешний цикл выводит перенос строки br. Вложенный цикл от 0 до 6 выводит либо 0 либо 1.</p>
 // Выведите на страницу
 
+// let btn = document.querySelector('.btn');
+// let result = document.querySelector('.result');
+
+// btn.addEventListener('click', () => {
+//    for (let i = 1; i <= 3; i++) {
+//       for (let q = 1; q <= 6; q++) {
+//          if (q % 2 == 1) {
+//             result.innerHTML += "1";
+//          } else {
+//             result.innerHTML += "0";
+//          }
+//       }
+//       result.innerHTML += "<br>";
+//    }
+// });
+
 //  Task 13
 // <p>С помощью вложенных циклов, нарисуйте строку:</p>
 // <pre>
@@ -171,6 +212,23 @@
 // </pre>
 // <p>Внешний цикл выводит перенос строки br. Вложенный цикл от 0 до 6 выводит либо 0 либо 1 либо х.</p>
 // Выведите на страницу
+
+// let btn = document.querySelector('.btn');
+// let result = document.querySelector('.result');
+
+// btn.addEventListener('click', () => {
+//    for (let i = 1; i <= 3; i++) {
+//       for (let q = 1; q <= 6; q++) {
+//          if (q % 3 === 0) {
+//             result.innerHTML += "x";
+//          } else if (q % 2 == 0) {
+//             result.innerHTML += 0;
+//          } else
+//             result.innerHTML += 1;
+//       }
+//       result.innerHTML += "<br>";
+//    }
+// });
 
 //  Task 14 *****
 // <p>С помощью вложенных циклов, нарисуйте строку:</p>
@@ -184,3 +242,11 @@
 // <p>Внешний цикл выводит перенос строки br и запускается от 0 до 5.</p>
 // <p>Вложенный цикл рисует цифры от 1 до 10. Обратите внимание, что первый ряд - есть ведущий нуль. Здесь все просто - проверили, если число меньше 10 - то конкатенируем ноль.</p>
 // Выведите на страницу
+
+
+let btn = document.querySelector('.btn');
+let result = document.querySelector('.result');
+
+btn.addEventListener('click', () => {
+
+});
