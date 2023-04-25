@@ -43,6 +43,18 @@
 // Task 3
 // Создайте div.block Задайте ему ширину и высоту. По нажатию на кнопку btn-3 запустите функцию f3, которая возвращает случайный цвет в формате rgb(x, y, z)(строка).Где x, y, z - случайные числа в диапазоне[0, 255] и применяет его к div.block. Создайте две функции. Одна генерирует случайный цвет, вторая - применяет фоновый цвет к элементу.
 
+// let btn = document.querySelector('.btn');
+// let block = document.querySelector('.block');
+
+// btn.addEventListener('click', () => {
+//    let a = Math.floor(Math.random() * 255);
+//    let b = Math.floor(Math.random() * 255);
+//    let c = Math.floor(Math.random() * 255);
+//    block.style.backgroundColor = `rgb(${a}, ${b}, ${c})`;
+// });
+
+// rgb(146, 78, 78)
+
 // Task 4
 // Даны 2 input - i-41 и i-42, оба - input[type=number]. При нажатии кнопки btn-4 срабатывает функция f4. Функция должна получить содержимое i-41 и i-42 в переменные и сравнить их, вывести в  out-4 большее число.
 //      Проведите самостоятельный тест работы, введите пары чисел 4 и 9, 9 и 22, 5 и 111.
@@ -244,9 +256,21 @@
 // Выведите на страницу
 
 
-let btn = document.querySelector('.btn');
-let result = document.querySelector('.result');
+// let btn = document.querySelector('.btn');
+// let result = document.querySelector('.result');
 
-btn.addEventListener('click', () => {
+// btn.addEventListener('click', () => {
+//    for (let i = 0; i < 5; i++) {
+//       for (let q = 1; q <= 10; q++) {
+//          let a = i * 10;
+//          if (q < 10) {
+//             result.innerHTML += `0${q} `;
+//          } else {
+//             result.innerHTML += `${+a + q} `;
 
-});
+//          }
+//       }
+//       result.innerHTML = "<br>";
+
+//    }
+// });
