@@ -1,0 +1,36 @@
+.tabs-header {
+  display: flex;
+  margin-top: 30px;
+}
+.tabs-item {
+  padding: 15px 35px;
+  border: 1px solid #c5c5c5;
+  cursor: pointer;
+  color: #c5c5c5;
+}
+.tabs-item:first-child {
+  border-radius: 20px 0 0 0;
+}
+.tabs-item:last-child {
+  border-radius: 0 20px 0 0;
+}
+.tabs-item.active {
+  color: coral;
+  border-bottom: 1px solid white;
+  position: relative;
+  z-index: 2;
+}
+.tabs-content {
+  border: 1px solid #c5c5c5;
+  width: 600px;
+  position: relative;
+  transform: translate(0, -1px);
+  padding: 20px;
+  border-radius: 0 20px 20px 20px;
+}
+.tabs-content__item {
+  display: none;
+}
+.tabs-content__item.active {
+  display: block;
+}
